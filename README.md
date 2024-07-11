@@ -4,7 +4,7 @@
 
 
 
-# Structure of the MTST datasets:
+# Structure of the folders:
 ```
 📂 multilingual-tst-datasets/
     📂  2023-1st_general_meeting/
