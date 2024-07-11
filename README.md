@@ -6,7 +6,7 @@
 
 # Structure of the folders:
 ```
-📂 multilingual-tst-datasets/
+📂 OpenReview_UniDive/
     📂  2023-1st_general_meeting/
         ├── 2023-1st_general_meeting_review.json
         └── ..
