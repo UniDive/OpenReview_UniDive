@@ -22,4 +22,5 @@
     ├── README.md
 ```
 
-If you face any issue please raise issue [here](https://github.com/UniDive/OpenReview_UniDive/issues)
+
+#### If you face any issues please raise the issue [here](https://github.com/UniDive/OpenReview_UniDive/issues)
