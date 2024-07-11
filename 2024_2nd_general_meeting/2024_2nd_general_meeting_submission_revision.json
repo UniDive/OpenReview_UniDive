@@ -1,0 +1,30 @@
+{
+    "poster_material": {
+        "value": {
+            "param": {
+                "type": "file",
+                "extensions": [
+                    "pdf"
+                ],
+                "maxSize": 50,
+                "optional": true,
+                "deletable": true
+            }
+        },
+        "order": 7
+    },
+    "booster_slides": {
+        "value": {
+            "param": {
+                "type": "file",
+                "extensions": [
+                    "pdf"
+                ],
+                "maxSize": 50,
+                "optional": true,
+                "deletable": true
+            }
+        },
+        "order": 8
+    }
+}

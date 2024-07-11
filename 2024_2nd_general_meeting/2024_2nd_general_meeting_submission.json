@@ -1,0 +1,44 @@
+{
+    "Working_Groups": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "WG1: Corpus Annotation",
+                    "WG2: Lexicon-corpus interface",
+                    "WG3: Multilingual and cross-lingual language technology",
+                    "WG4: Quantifying and promoting diversity"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 4
+    },
+    "Tracks_for_type_of_contributions": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Planned work",
+                    "Work in progress",
+                    "Complete work, also previously published"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 5
+    },
+    "Do_you_need_visa_to_attend_the_2nd_General_Meeting_of_UniDive": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Yes",
+                    "No"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 6
+    }
+}

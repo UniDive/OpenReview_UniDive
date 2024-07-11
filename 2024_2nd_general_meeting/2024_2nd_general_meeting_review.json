@@ -1,0 +1,156 @@
+{
+    "Clarity": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "5: very clear",
+                    "4: understandable",
+                    "3: understandable with some effort",
+                    "2: roughly understandable but with a lot of effort",
+                    "1: very hard to understand"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 1
+    },
+    "Relevance_to_WG1": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "3: very relevant",
+                    "2: relevant",
+                    "1: weakly relevant",
+                    "0: not relevant"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 2,
+        "description": "See the work program of WG1 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg1"
+    },
+    "Relevance_to_WG2": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "3: very relevant",
+                    "2: relevant",
+                    "1: weakly relevant",
+                    "0: not relevant"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 3,
+        "description": "See the work program of WG2 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg2"
+    },
+    "Relevance_to_WG3": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "3: very relevant",
+                    "2: relevant",
+                    "1: weakly relevant",
+                    "0: not relevant"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 4,
+        "description": "See the work program of WG3 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg3"
+    },
+    "Relevance_to_WG4": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "3: very relevant",
+                    "2: relevant",
+                    "1: weakly relevant",
+                    "0: not relevant"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 5,
+        "description": "See the work program of WG4 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg4"
+    },
+    "Is_the_language_of_study_explicitly_stated_in_the_abstract": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "yes",
+                    "no",
+                    "unsure"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 6
+    },
+    "Number_of_languages_studied": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "1",
+                    "2-5",
+                    "more than 5",
+                    "unsure"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 7
+    },
+    "Number_of_language_genera_studied": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "1",
+                    "2-5",
+                    "more than 5",
+                    "unsure"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 8,
+        "description": "According to WALS: https://wals.info/languoid"
+    },
+    "Review": {
+        "value": {
+            "param": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 20000,
+                "input": "textarea",
+                "markdown": true
+            }
+        },
+        "order": 9,
+        "description": "Please provide comments on strong and weak points of the abstract, as well as proposals of enhancements for the authors."
+    },
+    "Suggested_decision": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "5: Strong acceptance",
+                    "4: Acceptance",
+                    "3: Weak acceptance",
+                    "2: Weak rejection",
+                    "1: Strong rejection"
+                ],
+                "input": "select"
+            }
+        },
+        "order": 10
+    }
+}

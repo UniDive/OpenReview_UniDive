@@ -1,0 +1,105 @@
+{
+    "Clarity": {
+        "order": 1,
+        "value-radio": [
+            "5: very clear",
+            "4: understandable",
+            "3: understandable with some effort",
+            "2: roughly understandable but with a lot of effort",
+            "1: very hard to understand"
+        ],
+        "required": true
+    },
+    "Relevance_to_WG1_(Corpus_Annotation)": {
+        "description": "See the work program of WG1 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg1",
+        "order": 2,
+        "value-radio": [
+            "3: very relevant",
+            "2: relevant",
+            "1: weakly relevant",
+            "0: not relevant"
+        ],
+        "required": true
+    },
+    "Relevance_to_WG2_(Lexicon-corpus_interface)": {
+        "description": "See the work program of WG2 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg2",
+        "order": 3,
+        "value-radio": [
+            "3: very relevant",
+            "2: relevant",
+            "1: weakly relevant",
+            "0: not relevant"
+        ],
+        "required": true
+    },
+    "Relevance_to_WG3_(Multilingual_and_cross-lingual_language_technology)": {
+        "description": "See the work program of WG3 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg3",
+        "order": 4,
+        "value-radio": [
+            "3: very relevant",
+            "2: relevant",
+            "1: weakly relevant",
+            "0: not relevant"
+        ],
+        "required": true
+    },
+    "Relevance_to_WG4_(Quantifying_and_promoting_diversity)": {
+        "description": "See the work program of WG4 here: https://unidive.lisn.upsaclay.fr/doku.php?id=wg4",
+        "order": 5,
+        "value-radio": [
+            "3: very relevant",
+            "2: relevant",
+            "1: weakly relevant",
+            "0: not relevant"
+        ],
+        "required": true
+    },
+    "Is(are)_the_language(s)_of_study_explicitly_stated_in_the_abstract?": {
+        "order": 6,
+        "value-radio": [
+            "yes",
+            "no",
+            "unsure"
+        ],
+        "required": true
+    },
+    "Number_of_languages_studied": {
+        "order": 7,
+        "value-radio": [
+            "1",
+            "2-5",
+            "more than 5",
+            "unsure"
+        ],
+        "required": true
+    },
+    "Number_of_language_genera_studied": {
+        "description": "According to WALS: https://wals.info/languoid",
+        "order": 8,
+        "value-radio": [
+            "1",
+            "2-5",
+            "more than 5",
+            "unsure"
+        ],
+        "required": true
+    },
+    "Review": {
+        "order": 9,
+        "value-regex": "[\\S\\s]{1,200000}",
+        "description": "Please provide comments on strong and weak points of the abstract, as well as proposals of enhancements for the authors.",
+        "required": true,
+        "markdown": true
+    },
+    "Suggested_decision": {
+        "order": 10,
+        "value-radio": [
+            "5: Strong acceptance",
+            "4: Acceptance",
+            "3: Weak acceptance",
+            "2: Weak rejection",
+            "1: Strong rejection"
+        ],
+        "required": true
+    }
+}

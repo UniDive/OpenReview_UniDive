@@ -1,0 +1,77 @@
+{
+    "Clarity_of_the_project_description": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "5: very clear",
+                    "4: understandable",
+                    "3: understandable with some effort",
+                    "2: roughly understandable but with a lot of effort",
+                    "1: very hard to understand"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 2
+    },
+    "Relevance_of_the_project_to_the_topics_of_the_training_School": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "5: very relevant",
+                    "4: relevant",
+                    "3: Unsure",
+                    "2: Probably not relevant",
+                    "1: not relevant"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 1,
+        "description": "See the school program here: https://unidive.lisn.upsaclay.fr/doku.php?id=meetings:other-events:1st_unidive_training_school"
+    },
+    "Does_the_project_concern_a_low-resourced_language_or_variety": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Yes",
+                    "No"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 3
+    },
+    "Detailed_feedback_to_the_author": {
+        "value": {
+            "param": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 20000,
+                "input": "textarea",
+                "markdown": true
+            }
+        },
+        "order": 5,
+        "description": "Please provide comments on strong and weak points of the project, as well as proposals of enhancements for the authors."
+    },
+    "Suggested_decision": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "5: Strong acceptance",
+                    "4: Acceptance",
+                    "3: Weak acceptance",
+                    "2: Weak rejection",
+                    "1: Strong rejection"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 4
+    }
+}

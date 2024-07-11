@@ -1,0 +1,106 @@
+{
+    "The_language_of_the_resources": {
+        "value": {
+            "param": {
+                "type": "string",
+                "input": "textarea",
+                "markdown": true
+            }
+        },
+        "description": "Provide the language of the resource(s) in the text box",
+        "order": 6
+    },
+    "Type_of_the_resource": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Universal Dependency (UD) treebank",
+                    "PARSEME corpus",
+                    "another resource"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 5
+    },
+    "Tracks_for_type_of_contributions": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Planned work",
+                    "Work in progress"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 6
+    },
+    "If_the_project_is_selected_would_you_like_to_present_it_as_a_poster": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Yes",
+                    "No"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 7
+    },
+    "Do_you_need_a_visa_to_travel_to_Moldova": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Yes",
+                    "No"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 8
+    },
+    "Do_you_intend_to_apply_for_travel_support": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Yes",
+                    "No"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 9
+    },
+    "Please_indicate_your_gender": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Fem",
+                    "Masc",
+                    "Other"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 10
+    },
+    "Indicate_if_you_are_younger_than_40": {
+        "value": {
+            "param": {
+                "type": "string",
+                "enum": [
+                    "Younger",
+                    "Older"
+                ],
+                "input": "radio"
+            }
+        },
+        "order": 11
+    }
+}
